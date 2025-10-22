@@ -128,7 +128,7 @@ class _TextFieldFirstscreenState extends State<TextFieldFirstscreen> {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.white38,
+                    color: Colors.white24,
                     borderRadius: BorderRadius.all(Radius.circular(12)),
                     boxShadow: [
                       BoxShadow(
@@ -140,12 +140,13 @@ class _TextFieldFirstscreenState extends State<TextFieldFirstscreen> {
                     ],
                   ),
                   height: 55,
-                  width: 55,
-                  child: Image(image: AssetImage("assets/google_gmail.png")),
+                  width: 75,
+                  child: Image(image: AssetImage("assets/Google__G__logo.png"),
+                  ),
                 ),
                 Container(
                   decoration: BoxDecoration(
-                      color: Colors.white38,
+                      color: Colors.white24,
                       borderRadius: BorderRadius.all(Radius.circular(12)),
                     boxShadow: [
                       BoxShadow(
@@ -157,12 +158,12 @@ class _TextFieldFirstscreenState extends State<TextFieldFirstscreen> {
                     ],
                   ),
                   height: 55,
-                  width: 55,
+                  width: 75,
                   child: Image(image: AssetImage("assets/fb_logo.png")),
                 ),
                 Container(
                   decoration: BoxDecoration(
-                      color: Colors.white38,
+                      color: Colors.white24,
                       borderRadius: BorderRadius.all(Radius.circular(12)),
                     boxShadow: [
                       BoxShadow(
@@ -174,7 +175,7 @@ class _TextFieldFirstscreenState extends State<TextFieldFirstscreen> {
                     ],
                   ),
                   height: 55,
-                  width: 55,
+                  width: 75,
                   child: Image(image: AssetImage("assets/twiter_logo.png")),
                 )
               ],
